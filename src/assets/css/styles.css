@@ -116,6 +116,10 @@
   text-decoration: none;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 /* margin & padding */
 
 .pl-4 {
