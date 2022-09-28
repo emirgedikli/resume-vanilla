@@ -74,12 +74,28 @@
 
 /* background */
 
+.bg-neutral-700 {
+  background-color: rgb(64 64 64);
+}
+
 .bg-black {
   background-color: black;
 }
 
 .bg-beige {
   background-color: beige;
+}
+
+/* font-family */
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("/src/assets/fonts/Montserrat/Montserrat-Light.ttf") format("ttf"),
+  url("/src/assets/fonts/Montserrat/Montserrat-Light.ttf") format("ttf");
+}
+
+.font-M-Light {
+  font-family: Montserrat;
 }
 
 /* style */
@@ -120,6 +136,43 @@
   list-style-type: none;
 }
 
+/* font-size */
+
+.text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+}
+
+.text-5xl {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+}
+
 /* margin & padding */
 
 .pl-4 {
@@ -157,11 +210,15 @@
   padding-bottom: 0.75rem; /* 12px */
 }
 
-.pt-3	{
+.pt-3 {
   padding-top: 0.75rem; /* 12px */
 }
 
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pl-20 {
+  padding-left: 20rem; /* 80px */
 }
