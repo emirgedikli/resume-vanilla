@@ -1,7 +1,15 @@
 .mt-4 {
-  margin-top: 1rem; /* 16px */
+  margin-top: 1rem;
 }
 
-.gap-5	{
-  gap: 1.25rem; /* 20px */
+.mb-3-5 {
+  margin-bottom: 0.8rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
