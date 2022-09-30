@@ -3,12 +3,8 @@
   background-color: rgb(255 255 255);
 }
 
-.bg-feuille-verte {
-  background-image: url("../img/feuille-verte.jpg");
-}
-
-.bg-top {
-  background-position: top;
+.bg-cvb {
+  background-image: url("../img/cvb.jpg");
 }
 
 .bg-green-700 {
