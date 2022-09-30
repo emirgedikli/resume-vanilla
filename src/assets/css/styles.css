@@ -3,8 +3,12 @@
   background-color: rgb(255 255 255);
 }
 
-.bg-space {
-  background-image: url("../img/space.jpg");
+.bg-black {
+  background-image: url("../img/black.jpg");
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-green-700 {
