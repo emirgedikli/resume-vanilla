@@ -57,8 +57,17 @@
   padding-left: 1rem; /* 16px */
 }
 
-.p-4 {
-  padding: 4rem;
+.py-4 {
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+}
+
+.pt-4 {
+  padding-top: 1rem; /* 16px */
+}
+
+.pb-4 {
+  padding-bottom: 1rem; /* 16px */
 }
 
 /* font-family */
@@ -124,6 +133,10 @@
   font-weight: 700;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 /* text-color */
 .text-white {
   color: rgb(255 255 255);
@@ -155,4 +168,8 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
