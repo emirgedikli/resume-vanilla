@@ -1,4 +1,20 @@
 /* background */
+.bg-white {
+  background-color: rgb(255 255 255);
+}
+
+.bg-feuille-verte {
+  background-image: url("../img/feuille-verte.jpg");
+}
+
+.bg-andrea {
+  background-image: url("../img/andrea.jpg");
+}
+
+.bg-top {
+  background-position: top;
+}
+
 .bg-green-700 {
   background-color: rgb(21 128 61);
 }
@@ -46,8 +62,20 @@
 }
 
 /* font-family */
-.font-verdana {
-  font-family: Verdana, sans-serif;
+
+@font-face {
+  font-family: "Cabin-Bold";
+  src: url("../fonts/Cabin/Cabin-Bold.ttf");
+}
+
+.font-Cabin-Bold {
+  font-family: "Cabin-Bold", "Bitstream Vera Serif", serif;
+}
+
+/* position */
+
+.self-center {
+  align-self: center;
 }
 
 /* style */
