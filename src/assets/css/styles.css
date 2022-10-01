@@ -101,8 +101,8 @@
 }
 
 /* style */
-.rounded-full {
-  border-radius: 9999px;
+.rounded-circle {
+  border-radius: 50%;
 }
 
 .uppercase {
@@ -170,7 +170,7 @@
   text-align: left;
 }
 
-@media screen, (min-width: 1024px) {
+@media (min-width: 1024px) {
   /* grid */
   .lg:grid {
     display: grid;
@@ -250,5 +250,10 @@
 
   .lg:pb-4 {
     padding-bottom: 1rem; /* 16px */
+  }
+
+  /* width & height */
+  .lg:w-2-6 {
+    width: 33.333333%;
   }
 }
