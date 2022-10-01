@@ -3,8 +3,8 @@
   background-color: rgb(255 255 255);
 }
 
-.bg-black {
-  background-image: url("../img/black.jpg");
+.bg-brainboard {
+  background-image: radial-gradient(#5a39b3, black);
 }
 
 .bg-top {
