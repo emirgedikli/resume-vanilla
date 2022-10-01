@@ -170,6 +170,12 @@
   text-align: left;
 }
 
+/* padding */
+
+.pl-1-5 {
+  padding-left: 0.3rem; /* 6px */
+}
+
 @media screen and (m-width: 1024px) {
   /* grid */
   .lg:display-grid {
