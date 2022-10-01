@@ -170,7 +170,7 @@
   text-align: left;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* grid */
   .lg:display-grid {
     display: grid;
