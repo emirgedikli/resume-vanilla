@@ -172,7 +172,7 @@
 
 @media (min-width: 1024px) {
   /* grid */
-  .lg:grid {
+  .lg:display-grid {
     display: grid;
   }
 
@@ -197,7 +197,7 @@
   }
 
   /* flex */
-  .lg:flex {
+  .lg:display-flex {
     display: flex;
   }
 
