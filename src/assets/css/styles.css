@@ -74,6 +74,10 @@
   padding-left: 0.25rem; /* 4px */
 }
 
+.pl-1-5 {
+  padding-left: 0.375rem; /* 6px */
+}
+
 /* font-family */
 
 @font-face {
@@ -198,5 +202,9 @@
   /* lg-padding */
   .lg-pt-4 {
     padding-top: 1rem; /* 16px */
+  }
+
+  .lg-pl-1-5 {
+    padding-left: 0.375rem; /* 6px */
   }
 }
