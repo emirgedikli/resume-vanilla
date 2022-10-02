@@ -78,6 +78,14 @@
   padding-left: 0.375rem; /* 6px */
 }
 
+.pr-40 {
+  padding-right: 10rem; /* 160px */
+}
+
+.pb-4 {
+  padding-bottom: 1rem; /* 16px */
+}
+
 /* font-family */
 
 @font-face {
@@ -206,5 +214,13 @@
 
   .lg-pl-1-5 {
     padding-left: 0.375rem; /* 6px */
+  }
+
+  .lg-pr-40 {
+    padding-right: 10rem; /* 160px */
+  }
+
+  .lg-pb-4 {
+    padding-bottom: 1rem; /* 16px */
   }
 }
