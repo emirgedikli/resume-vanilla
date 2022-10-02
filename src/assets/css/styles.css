@@ -180,6 +180,10 @@
   flex-direction: row;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 /* position */
 
 .text-center {
@@ -222,5 +226,13 @@
 
   .lg-pb-4 {
     padding-bottom: 1rem; /* 16px */
+  }
+
+  /* flex */
+  .lg-flex {
+    display: flex;
+  }
+  .lg-justify-center {
+    justify-content: center;
   }
 }
