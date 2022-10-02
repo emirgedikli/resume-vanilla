@@ -179,7 +179,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  /* grid */
+  /* lg-grid */
   .lg-grid {
     display: grid;
   }
@@ -195,7 +195,7 @@
   .lg-col-span-2 {
     grid-column: span 2 / span 2;
   }
-  /* padding */
+  /* lg-padding */
   .lg-pt-4 {
     padding-top: 1rem; /* 16px */
   }
