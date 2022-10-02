@@ -228,11 +228,7 @@
     padding-bottom: 1rem; /* 16px */
   }
 
-  /* flex */
-  .lg-flex {
-    display: flex;
-  }
-  .lg-justify-center {
-    justify-content: center;
+  .lg-pr-40 {
+    padding-right: 10rem; /* 160px */
   }
 }
