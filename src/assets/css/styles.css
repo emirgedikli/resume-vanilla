@@ -86,6 +86,10 @@
   padding-bottom: 1rem; /* 16px */
 }
 
+.p-8 {
+  padding: 2rem; /* 32px */
+}
+
 /* font-family */
 
 @font-face {
@@ -230,5 +234,9 @@
 
   .lg-pr-40 {
     padding-right: 10rem; /* 160px */
+  }
+
+  .lg-p-8 {
+    padding: 2rem; /* 32px */
   }
 }
