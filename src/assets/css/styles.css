@@ -99,6 +99,11 @@
   padding-bottom: 2rem; /* 32px */
 }
 
+.px-16 {
+  padding-left: 4rem; /* 64px */
+  padding-right: 4rem; /* 64px */
+}
+
 /* font-family */
 
 @font-face {
