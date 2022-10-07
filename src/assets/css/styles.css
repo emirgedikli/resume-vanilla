@@ -40,6 +40,10 @@
   margin-top: 1rem; /* 16px */
 }
 
+.mt-24 {
+  margin-top: -6rem; /* 96px */
+}
+
 /* padding */
 .p-12 {
   padding: 3rem; /* 48px */
