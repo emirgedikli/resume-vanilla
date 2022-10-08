@@ -3,47 +3,12 @@
   background-color: rgb(255 255 255);
 }
 
-.bg-cv {
+.bg-green {
   background-color: #303f3c;
 }
 
-/* margin (-) */
-.mt-7- {
-  margin-top: -1.75rem; /* 28px */
-}
-/* margin */
-
-/* padding */
-
-/* font-family */
-
-@font-face {
-  font-family: "Cabin-Bold";
-  src: url("../fonts/Cabin/Cabin-Bold.ttf");
-
-  font-family: "Lora-Bold";
-  src: url("../fonts/Lora/Lora-Bold.ttf");
-
-  font-family: "WorkSans-Bold";
-  src: url("../fonts/Work_Sans/WorkSans-Bold.ttf");
-}
-
-.font-Cabin-Bold {
-  font-family: "Cabin-Bold", serif;
-}
-
-.font-Lora-Bold {
-  font-family: "Lora-Bold", serif;
-}
-
-.font-WorkSans-Bold {
-  font-family: "WorkSans-Bold", serif;
-}
-
-/* position */
-
 /* style */
-.box-shadow {
+.shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -51,17 +16,9 @@
   text-transform: uppercase;
 }
 
-.list-none {
-  list-style-type: none;
-}
-
 /* text-color */
 .text-white {
   color: white;
-}
-
-.text-black {
-  color: black;
 }
 
 .text-green {
@@ -72,43 +29,18 @@
   color: #ffdf2b;
 }
 
-/* grid */
-.grid {
-  display: grid;
+/* font-family */
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("../fonts/Work_Sans/WorkSans-Bold.ttf");
 }
 
-/* flex */
-.flex {
-  display: flex;
+.font-WorkSans-Bold {
+  font-family: "WorkSans-Bold", serif;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-/* position */
-
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-/* width */
-.w-96 {
-  width: 24rem; /* 384px */
-}
-
+/* DESKTOP */
 @media screen and (min-width: 1024px) {
   /* lg-grid */
   .lg-grid {
@@ -133,6 +65,16 @@
     margin-right: 16rem; /* 256px */
   }
 
+  .lg-mt-16-4 {
+    margin-top: -4rem; /* 64px */
+  }
+
+  /* (-) margin */
+
+  .lg-ml-16-4 {
+    margin-left: -4rem; /* 64px */
+  }
+
   /* lg-padding */
   .lg-pl-12 {
     padding-left: 3rem; /* 48px */
@@ -143,7 +85,17 @@
     padding-bottom: 1rem; /* 16px */
   }
 
+  .lg-px-8 {
+    padding-left: 2rem; /* 32px */
+    padding-right: 2rem; /* 32px */
+  }
+
   /* lg-font-size */
+  .lg-text-xs {
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+  }
+
   .lg-text-5xl {
     font-size: 3rem; /* 48px */
     line-height: 1;
