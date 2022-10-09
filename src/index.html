@@ -8,15 +8,25 @@
     <title>CV-EmirGedikli</title>
 </head>
     <body>
-        <main class="bg-white font-Cabin-Bold mx-52 shadow lg-grid lg-grid-cols-2 lg-mx-64">
+        <main class="bg-white font-Cabin-Bold mx-52 shadow lg-mx-64 lg-grid lg-grid-cols-2">
             <!-- left column -->
-            <section class="bg-white font-WorkSans-Bold text-green p-8 lg-grid lg-col-span-1 lg-pl-12 lg-py-4">
-                <!-- profile 1 -->
+            <section class="bg-white font-WorkSans-Bold text-green p-8 lg-grid lg-col-span-1">
+                <!-- photo cv -->
                 <div>
-                    <div>
+                    <div class="flex justify-center">
                         <img src="./assets/img/profil.png" alt="profil" height="auto" width="70%">
                     </div>
-                    <div class="font-sans text-sm">
+                    <div class="font-sans text-sm invisible">
+                        <p>Actuellement en formation de développeur web et web mobile, je suis à la recherche d'un stage du 9 janvier au 3 mars 2023.</p>
+                    </div>
+                </div>
+                <!-- profil mobile -->
+                <div class="visible">
+                    <div class="px-12">
+                        <h1 class="uppercase text-3xl">Emir Gedikli</h1>
+                        <h2 class="font-sans text-base mt-4-1">Développeur Web</h2>
+                    </div>
+                    <div class="font-sans text-sm visible px-12 mt-8">
                         <p>Actuellement en formation de développeur web et web mobile, je suis à la recherche d'un stage du 9 janvier au 3 mars 2023.</p>
                     </div>
                 </div>
@@ -74,100 +84,105 @@
             </section>
             <!-- end left column -->
             <!-- right column -->
-            <section class="bg-green font-WorkSans-Bold text-white p-8 lg-grid lg-col-span-2 lg-pl-12 lg-py-4">
-                <!-- profile 2 -->
-                <div>
-                    <div class="uppercase text-left text-yellow">
-                        <h1>Emir</h1>
-                        <h1>Gedikli</h1>
+            <section class="bg-green font-WorkSans-Bold text-white p-8 lg-grid lg-col-span-2">
+                <!-- profil desktop -->
+                <div class="invisible">
+                    <div class="text-yellow">
+                        <h1 class="uppercase">Emir</h1>
+                        <h1 class="uppercase">Gedikli</h1>
                     </div>
                     <div>
-                        <h2>Développeur Web</h2>
-                    </div>
-                </div>
-                <!-- Informations -->
-                <div>
-                    <div>
-                        <h2 class="uppercase text-left text-yellow">Informations</h2>
-                    </div>
-                    <div>
-                        <p>Meaux, France (77100)</p> 
-                        <p>emirwtaha@gmail.com</p>
-                        <a href="tel:+4733378901" class="text-white">07 67 24 50 24</a>
-                        <p>Permis B</p>
-                    </div>
-                </div>
-                <!-- Formation -->
-                <div>
-                    <div>
-                        <h2 class="uppercase text-left text-yellow">Formation</h2>
-                    </div>
-                    <div>
-                        <h3>Développeur Web et Web Mobile</h3>
-                        <h3>Access Code School, 2022 - 2023</h3>
-                        <h3>Titre professionnel niveau bac+2</h3>
+                        <h2 class="font-sans">Développeur Web</h2>
                     </div>
                 </div>
                 <div>
-                    <!-- Expériences -->
+                    <!-- Informations -->
                     <div>
                         <div>
-                            <h2 class="uppercase text-left text-yellow">Expériences Professionnelles</h2>
+                            <h2 class="uppercase text-yellow">Informations</h2>
                         </div>
                         <div>
-                            <h3>Équi̇pi̇er Polyvalent, Mc Donald's</h3>
+                            <p>Meaux, France (77100)</p> 
+                            <p>emirwtaha@gmail.com</p>
+                            <a href="tel:+4733378901" class="text-white">07 67 24 50 24</a>
+                            <p>Permis B</p>
+                        </div>
+                    </div>
+                    <!-- Formation -->
+                    <div class="pt-8">
+                        <div>
+                            <h2 class="uppercase text-yellow">Formation</h2>
                         </div>
                         <div>
+                            <h3>Développeur Web et Web Mobile</h3>
+                            <h3>Access Code School, 2022 - 2023</h3>
+                            <h3 class="font-sans">Titre professionnel niveau bac+2</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Expériences -->
+                        <div class="pt-8">
                             <div>
-                                <h4>2022 - 2022</h4>
+                                <h2 class="uppercase text-yellow">Expériences Professionnelles</h2>
                             </div>
                             <div>
-                                <ul>
-                                    <li>Livraison</li>
-                                    <li>Inventaire</li>
-                                    <li>Travail d'équipe</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>Agent de sécurité, Anadolu Terra</h3>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>2021 - 2021</h4>
+                                <h3>Équi̇pi̇er Polyvalent, Mc Donald's</h3>
+                                <hr>
                             </div>
                             <div>
-                                <ul>
-                                    <li>Surveillance de nuit</li>
-                                    <li>Contrôle des caméras</li>
-                                    <li>Contrôle des entrées et sorties</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>Apprenti̇ horloger, Beg saat</h3>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>2020 - 2020</h4>
+                                <div>
+                                    <h4>2022 - 2022</h4>
+                                </div>
+                                <div>
+                                    <ul class="font-sans">
+                                        <li>Livraison</li>
+                                        <li>Inventaire</li>
+                                        <li>Travail d'équipe</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div>
-                                <ul>
-                                    <li>Service client</li>
-                                    <li>Entretien des montres</li>
-                                    <li>Suivi des commandes</li>
-                                </ul>
+                                <h3>Agent de sécurité, Anadolu Terra</h3>
+                                <hr>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4>2021 - 2021</h4>
+                                </div>
+                                <div>
+                                    <ul class="font-sans">
+                                        <li>Surveillance de nuit</li>
+                                        <li>Contrôle des caméras</li>
+                                        <li>Contrôle des entrées et sorties</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <h3>Apprenti̇ horloger, Beg saat</h3>
+                                <hr>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4>2020 - 2020</h4>
+                                </div>
+                                <div>
+                                    <ul class="font-sans">
+                                        <li>Service client</li>
+                                        <li>Entretien des montres</li>
+                                        <li>Suivi des commandes</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Centres d'intérêts -->
-                <div>
-                    <div>
-                        <h2 class="uppercase text-left text-yellow">Centres d'intérêts</h2>
-                    </div>
-                    <div>
-                        <p>Musique, Littérature, Jeux Vidéo</p>
+                    <!-- Centres d'intérêts -->
+                    <div class="pt-8">
+                        <div>
+                            <h2 class="uppercase text-yellow">Centres d'intérêts</h2>
+                        </div>
+                        <div>
+                            <p>Musique, Littérature, Jeux Vidéo</p>
+                        </div>
                     </div>
                 </div>
             </section>
