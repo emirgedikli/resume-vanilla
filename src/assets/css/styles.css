@@ -7,6 +7,17 @@
   background-color: #303f3c;
 }
 
+/* grid */
+
+/* flex */
+
+/* margin */
+
+/* padding */
+.p-8 {
+  padding: 2rem; /* 32px */
+}
+
 /* style */
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -29,6 +40,12 @@
   color: #ffdf2b;
 }
 
+/* font-size */
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
 /* font-family */
 
 @font-face {
@@ -38,6 +55,10 @@
 
 .font-WorkSans-Bold {
   font-family: "WorkSans-Bold", serif;
+}
+
+.font-sans {
+  font-family: sans-serif;
 }
 
 /* DESKTOP */
@@ -58,6 +79,8 @@
   .lg-col-span-2 {
     grid-column: span 2 / span 2;
   }
+
+  /* lg-flex */
 
   /* lg-margin */
   .lg-mx-64 {
