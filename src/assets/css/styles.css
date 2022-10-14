@@ -45,6 +45,10 @@
   padding-right: 3rem; /* 48px */
 }
 
+.pt-4 {
+  padding-top: 1rem; /* 16px */
+}
+
 /* style */
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -56,6 +60,10 @@
 
 .italic {
   font-style: italic;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 /* position */
@@ -77,6 +85,10 @@
 }
 
 /* font-size */
+.font-bold {
+  font-weight: 700;
+}
+
 .text-sm {
   font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
