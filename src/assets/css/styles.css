@@ -66,6 +66,10 @@
   line-height: 1.5;
 }
 
+.no-underline {
+  text-decoration-line: none;
+}
+
 /* position */
 .text-center {
   text-align: center;
